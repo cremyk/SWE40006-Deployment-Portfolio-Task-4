@@ -5,10 +5,9 @@
 This repository contains the source code and Docker configurations for Deployment Portfolio Task 4:
 
 * **Task 4.1 (Pass):** Docker environment verification using the canonical `hello-world` image.
-* **Task 4.2 (Credit):** Python Flask web server deployed locally on port 5000 and pulled to a secondary Docker device (Iximiuz Labs).
-* **Task 4.3 (Distinction):** "PyDone", an interactive To-Do list web application built with Flask and HTML/CSS, deployed on port 5001.
-* **Task 4.4 (High Distinction):** "Medicare Clinical Appointment System", a non-web-based console (CLI) application deployed to Docker using interactive mode (`-it`).
-
+* **Task 4.2 (Credit):** Python Flask web server deployed locally and pulled to a secondary Docker device (Iximiuz Labs).
+* **Task 4.3 (Distinction):** "PyDone", an interactive To-Do list web application built with Flask and HTML/CSS.
+* **Task 4.4 (High Distinction):** "Medicare Clinical Appointment System", a non-web-based console (CLI) application deployed to Docker.
 ---
 
 ## Repository Structure
@@ -46,8 +45,6 @@ docker run -d -p 5001:5001 --name pydone-web-container cremy212/pydone-todo-app:
 Open <http://localhost:5001>
 
 ### Task 4.4 – Medicare Clinical Appointment System (CLI)
-
-The `-it` flags are required because the app needs keyboard input.
 
 ```bash
 docker pull cremy212/hospital-cli-app:v1.0
