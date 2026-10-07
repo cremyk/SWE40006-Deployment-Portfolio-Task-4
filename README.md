@@ -1,4 +1,4 @@
-# Deployment Activity 4 - Task 4 Deploy containers using Docker
+# Deployment Activity 4 - Deploy containers using Docker
 
 ## Project Overview
 
